@@ -12,6 +12,11 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        System.out.println("hello");
+        return text;
+    }
+    public String copy1(String text){
+        System.out.println("polly");
+        return text;
     }
 }
