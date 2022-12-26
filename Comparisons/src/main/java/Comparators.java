@@ -14,6 +14,9 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
+        int a = 5;
+        boolean b = (a == 5);
+        System.out.println("true");
         return false;
     }
 
