@@ -32,6 +32,7 @@ public class Player {
     public Player(String playerName){
         this.level = 1;
         this.playerName = playerName;
+        Player this.playerName = new Player("Wario", 1);
     }
 
     /**
@@ -49,7 +50,6 @@ public class Player {
      */
     public Player(String playerName, int level){
         Player p1 = new Player("Mario", 5);
-        Player p2 = new Player("Wario");
         System.out.println(p1);
         System.out.println(p2);
     }
