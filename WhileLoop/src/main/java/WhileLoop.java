@@ -35,6 +35,7 @@ public class WhileLoop {
     public int whileExample(int end){
         int sum = 0;
         int i = 0;
+        sum = sum+i;
         while (i < end) {
             i = i+1;
         }
