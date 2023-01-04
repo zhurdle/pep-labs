@@ -37,6 +37,7 @@ public class WhileLoop {
         int i = 0;
         sum = sum+i;
         while (i < end) {
+            sum = sum + i;
             i = i+1;
         }
 
