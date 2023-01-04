@@ -42,7 +42,7 @@ public class ForLoop {
     public String returnNumbers(int start, int end){
         String buildingString = "";
 
-//        for(int i = start; i < end;  i++){
+        for(int i = start; i < end;  i++){
             buildingString = buildingString + i + " ";
             
 }
