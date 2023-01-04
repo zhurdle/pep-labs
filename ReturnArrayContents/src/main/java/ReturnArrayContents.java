@@ -30,9 +30,14 @@ public class ReturnArrayContents {
      * @return a string representation of all values of nums, with the values separated by spaces.
      */
     public String arrayToString(int[] nums){
+        String stringArray = new String();
+        String result = new String();
         for(int i = 0; i < nums.length ; i++){
-            System.out.println(i < nums.length ? " " : nums[i]);
+           stringArray = Integer.toString(nums[i]);
         }
-        return "";
+
+        stringArray.result = stringArray.split("").join("");
+
+        System.out.println(stringArray);
     }
 }
