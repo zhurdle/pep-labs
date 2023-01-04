@@ -31,12 +31,8 @@ public class ReturnArrayContents {
      */
     public String arrayToString(int[] nums){
         for(int i = 0; i < nums.length ; i++){
-            if (i < nums.length) {
-                return " ";
-            } else {
-                return String.valueOf(nums[i]);
-            }
+            System.out.println(i < nums.length ? " " : nums[i]);
         }
-        return String.valueOf(nums[i]);
+        return "";
     }
 }
