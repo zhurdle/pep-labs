@@ -34,6 +34,7 @@ public class ReturnArrayContents {
         String result = new String();
         for(int i = 0; i < nums.length ; i++){
            stringArray = Integer.toString(nums[i]);
+           
         }
 
         stringArray.result = stringArray.split("").join("");
